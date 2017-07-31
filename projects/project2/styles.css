@@ -1,0 +1,47 @@
+﻿/* 添加 CSS */
+
+li{
+  list-style: none;
+}
+
+.content{
+  color:white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#synopsis{	
+  background-color:#bb7e56;
+  border: 1px solid #c0bebe;
+  border-radius: 10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.Milvus{
+  margin-top:5px;
+  margin-bottom:20px;
+}
+
+#card{
+  background: url(photo.jpg);
+  margin: 0 auto;
+  margin-top:15px;
+  margin-bottom:15px;
+  border: 1px solid #c0bebe;
+  border-radius: 5px;
+  cursor: pointer;
+  width:380px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+#backdrop{
+  width:420px;
+  height:770px;
+  background-color:#534542 ;
+  margin: 0 auto;
+  border: 1px solid #c0bebe;
+  border-radius:15px;
+  box-shadow: 7px 14px 16px -2px rgba(59,40,21,1);
+}
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  
+  <title>My Portfolio Site</title>
+  
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo" />
+  
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+</head>
+
+<body>
+  <div class="container-fluid">
+    
+	<header> 
+	  <div class="row responsive-logo">
+	    <div class="col-xs-12 col-md-6">
+	      <img class="img-responsive" id="logo" src="img/astronaut.svg" alt="logo">
+	    </div>
+	    <div class="col-xs-12 col-md-6 text-right text-uppercase">
+	      <h1>My Portfolio Site</h1>
+	      <h3>Front-End GU LI</h3>
+	    </div>
+	  </div>  
+	</header>
+	
+     <div class="row">  
+	   <div class="col-xs-12">
+	     <hr>
+	   </div>
+	 </div> 
+	
+	  <div class="row">
+		<div class="col-xs-12">
+		  <a href="index.html">
+			<picture id="banner">
+			  <source media="(min-width: 750px)" srcset="img/banner_2400_2x.jpg 2x, img/banner_1600_1x.jpg" />
+			  <source media="(min-width: 500px)" srcset="img/banner_1000_medium.jpg" />
+			  <img class="img-responsive" src="img/banner_500_small.jpg" alt="banner"> 
+			</picture>
+		  </a>
+		</div>
+	  </div>
+ 	
+	<section id="content">
+	  
+	  <div class="row">
+		  <div class="col-xs-12">
+			<h2>Fatured Work</h2>
+		  </div>
+	  </div>	
+		
+	  <div class="row">
+		  
+		<div class="col-xs-3 responsive-piutures"  data-toggle="modal" data-target="#project1">
+		  <figure>
+		    
+			<picture>  
+			  <source media="(max-width: 500px)" srcset="img/roject1_500_small.jpg" />
+			  <img class="img-responsive projects" src="img/project1_800.jpg" alt="Project1">
+			</picture>	
+			  
+			<figcaption>
+			  <h4>Project 1</h4>
+			  <p>This is my first project in Udacity. Click the picture see more. &#128418;</p>
+			</figcaption>
+			  
+		  </figure>  
+		</div>
+		  
+		<div class="col-xs-3 responsive-piutures" data-toggle="modal" data-target="#project2">
+		  <figure>
+			  
+			<picture>  
+		      <source media="(max-width: 500px)" srcset="img/project2_500.jpg" />
+			  <img class="img-responsive projects" src="img/project2_800.jpg" alt="Project2">
+			</picture>	
+			  
+			<figcaption>
+			  <h4>Project 2</h4>
+			  <p>This is my second project in Udacity. Click the picture see more. &#128418;</p>
+		    </figcaption>
+			
+		  </figure>  
+		</div>
+		  
+		<div class="col-xs-3 responsive-piutures" data-toggle="modal" data-target="#project3">
+		  <figure>
+		    <picture>  
+		      <source media="(max-width: 500px)" srcset="img/project3_500.jpg" />
+			  <img class="img-responsive projects" src="img/project3_800.jpg" alt="Project3">
+			</picture>	
+			  
+			<figcaption>
+			  <h4>Project 3</h4>
+			  <p>This is my third project in Udacity. Click the picture see more. &#128418;</p>
+			</figcaption>
+			  
+	      </figure>  
+		</div>
+		  
+		<div class="col-xs-3 responsive-piutures" data-toggle="modal" data-target="#project4">
+		  <figure>
+			  
+			<picture>  
+			  <source media="(max-width: 500px)" srcset="img/project4_500.jpg" />
+			  <img class="img-responsive projects" src="img/project4_800.jpg" alt="Project4">
+			</picture>	
+			  
+			<figcaption>
+			  <h4>Project 4</h4>
+			  <p>This is my fourth project in Udacity. Click the picture see more. &#128418;</p>
+			</figcaption>
+			  
+		  </figure>  
+		</div>
+		
+	  </div>
+	  
+    </section>
+	
+  </div>
+  
+  <footer>
+    <div id="social">
+      <a href="https://twitter.com/home?status=I love Udacity." class="entypo-twitter-circled">Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=I love Udacity." class="entypo-facebook-circled">Facebook</a>
+      <a href="https://plus.google.com/share?url=I love Udacity." class="entypo-gplus-circled">Google+</a>
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=I love Udacity." class="entypo-linkedin-circled">linkedin</a>
+    </div>
+	<a href="#" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+  </footer>
+  
+  <!-- Modal1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title" id="myModalLabel1">My First Project</h2>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="img/project1_800.jpg" alt="project1">
+                    <p>This is my first project in this class. I have learned a lot about HTML. Even though it is very easy for most people, but for me, it was a little hard.</p>
+					<a class="modal-color" href="projects/project1/index.html">Click here view my first project &#128412;</a>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+  <!-- Modal2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title" id="myModalLabel2">My Second Project</h2>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="img/project2_800.jpg" alt="project2">
+                    <p>This is my second  project in this class. Do you like it?</p>
+					<a class="modal-color" href="projects/project2/card.html">Click here view my second project &#128412;</a>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title" id="myModalLabel3">My Third Project</h2>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="img/project3_800.jpg" alt="project3">
+                    <p>This is my third project in this class. Until now, I can use HTML and CSS make a simple web, really cool.</p>
+					<a class="modal-color" href="#">Click here view my third project &#128412;</a>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal4 -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h2 class="modal-title" id="myModalLabel4">My Fourth Project</h2>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="img-responsive center-block" src="img/project4_800.jpg" alt="project1">
+                    <p>This is my fourth project in this class. Actually I haven't done yet, there still a lot of work to do, so I will show you the forth project as soon as it finish.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+</body>
+</html>

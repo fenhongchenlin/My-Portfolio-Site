@@ -1,0 +1,240 @@
+/* Font Awesome */
+[class*="entypo-"]:before {
+  color: #386895;
+  display: inline-block;
+  font-family: 'entypo', sans-serif;
+  font-size: 2em;
+  width: 2em;
+}
+
+/* hover */
+.projects:hover {
+  filter: drop-shadow(3px 3px 3px #599ddc);
+}
+
+h4:hover {
+  color: #ef9c07;
+  text-decoration: underline;
+}
+
+p:hover {
+  color: #386895;
+  text-decoration: underline;
+}
+
+/* font */
+@font-face {
+  font-family: 'Exo-Thin';
+  src: url('../fonts/exo/Exo-Thin.ttf');  
+  font-weight: normal;
+  font-style: normal;
+   }
+@font-face {
+  font-family: 'Exo-bold';
+  src: url('../fonts/exo/Exo-Regular.ttf');	   
+  font-weight: normal;
+  font-style: normal;
+   }
+   
+/* logo */
+#logo {
+  height: 7vw;
+  width: 7vw;
+  margin: 2em 0 0 0;
+}
+
+/* horizon */
+hr {
+  margin: 1em 0 2em 0;
+  border: 0;
+  color: #2d3c49;
+  background-color: #2d3c49; 
+  height: 0.2em;
+}
+
+/* banner */
+picture#banner img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 50%;
+}
+
+/* heading & content */
+h1 {
+  color: #273b7a;
+  font-size: 5.6em;
+  font-family: Exo-Thin;
+  margin-top: 0.5em;
+}
+
+h2 {
+  color: #386895;
+  font-size: 3em;
+  font-family: Exo-bold;
+  margin: 0.8em 0 0.2em 0.3em;
+}
+
+h3 {
+  color: #7f7f7f;
+  font-size: 2em;
+  font-family: Exo-bold;
+}
+
+h4 {
+  text-align: center;
+  color: #ffa400;
+  font-size: 2em;
+  font-family: Exo-bold;
+  cursor: pointer;  
+}
+
+p {
+  text-align: center;
+  color: #4588c6;
+  font-size: 1.2em;
+  font-family: Exo-bold; 
+  margin-top: 0.2em;
+  cursor: pointer;
+}
+
+.projects {
+  cursor: pointer;
+}
+
+/* footer */
+section:last-of-type {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 1em 0;
+  padding: 0 0 2em 0;
+}
+
+#viewSource {
+  border-top: 1px solid #ddd;
+  display: block;
+  margin: 1.3em 0 1.3em 0;
+  padding: 1em 0 0 0;
+}
+
+#social a {
+  margin: 0 1em 0 0;
+}
+
+footer {
+  text-align: center;
+}
+/* model */
+.modal-color {
+  color: #ffa400;
+}
+
+/* media */
+@media screen and (max-width: 500px) {
+	
+	.responsive-piutures {
+	  width: 100%;
+}
+
+	#logo {
+	  margin: 1em auto 0 auto;
+	  height: 20vw;
+      width: 20vw;
+}
+    hr {
+      margin: 1em 0 1em 0;
+      border: 0;
+	  color: #2d3c49;
+	  background-color: #2d3c49; 
+	  height: 0.15em;
+}
+	h1 {
+	  font-family: Exo-bold;
+	  font-size: 2em;
+	  text-align: center;
+}
+	
+	h2 {
+	  color: #386895;
+	  font-size: 2em;
+	  font-family: Exo-bold;
+	  margin: 0.5em 0 0.3em 0.3em;
+	  text-align: center;
+}
+
+	h3 {
+	  font-family: Exo-bold;
+      font-size: 1em;
+	  text-align: center;
+	  margin: 0 0 0 0;
+}
+
+	h4 {
+	  text-align: center;
+	  color: #ffa400;
+	  font-size: 1.5em;
+	  font-family: Exo-bold; 
+}
+
+	p {
+	  text-align: center;
+	  color: #4588c6;
+	  font-size: 1em;
+	  font-family: Exo-bold; 
+	  margin-top: 0.2em;
+}
+
+}
+
+@media screen and (min-width:500px) and (max-width: 750px){
+	
+	.responsive-piutures {
+	  width: 50%;
+}
+	
+	#logo {
+	  margin: 1em auto 0 auto;
+	  height: 15vw;
+      width: 15vw;
+}
+    hr {
+      margin: 0.5em 0 1.2em 0;
+      border: 0;
+	  color: #2d3c49;
+	  background-color: #2d3c49; 
+	  height: 0.15em;
+}
+	h1 {
+	  font-family: Exo-bold;
+	  font-size: 3em;
+	  text-align: center;
+}
+	
+	h2 {
+	  color: #386895;
+	  font-size: 2em;
+	  font-family: Exo-bold;
+	  margin: 0.5em 0 0.3em 0.3em;
+}
+
+	h3 {
+	  font-family: Exo-bold;
+      font-size: 1em;
+	  text-align: center;
+	  margin: 0 0 0.8em 0;
+}
+
+	h4 {
+	  text-align: center;
+	  color: #ffa400;
+	  font-size: 1.5em;
+	  font-family: Exo-bold; 
+}
+
+	p {
+	  text-align: center;
+	  color: #4588c6;
+	  font-size: 1em;
+	  font-family: Exo-bold; 
+	  margin-top: 0.2em;
+}
+
+}
